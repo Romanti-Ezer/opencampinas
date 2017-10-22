@@ -1,0 +1,602 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	background: #F5F5F5;
+	color: #67727A;
+	font-family: 'Alegraya', sans-serif;
+	margin: 0;
+	
+
+}
+h2{
+	font-size: 250%;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2%;
+	color: #F5F5F5;
+}
+h3{
+	font-size: 175%;
+	line-height: 155%;
+	padding: 5% 0;
+	font-weight: 400;
+	color: #F5F5F5;
+}
+p{
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #F5F5F5;
+	font-size: 160%;
+	line-height: 150%;
+	padding: 3%;
+	text-indent: 2%;
+	text-align: justify;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin-bottom: -4px;
+}
+header{
+	background-color: #6991AC;
+	width: 100%;
+	height: 86px;
+}
+#header-inner{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#logo{
+	margin: 20px;
+	float: left;
+	width: 128px;
+	height: 128px;
+	background: url(img/CC2.png) no-repeat center;
+}
+/* --- Start Navigation --*/
+nav{
+	float: right;
+	padding: 25px 20px 0 0;
+}
+#menu-icon{
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(img/nav.png) center;
+}
+a:hover{
+	border-radius: 4px 4px 0 0;
+}
+ul{
+	list-style-type: none;
+}
+nav ul li{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 150%;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+nav ul li a{
+	color: #F5F5F5;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #C3D7DF;
+}
+.current{
+	color: #C3D7DF;
+}
+
+/*--- End Navigation -- */
+
+.banner2{
+	width: 100%;
+	background-color: #6991AC;
+}
+.banner2 h2{
+	text-align: left;
+	text-align: center;
+	font-family: Helvetica;
+	line-height: 190%;
+	font-weight: 900;
+	font-size: 405%;
+	text-shadow: 1px 1px 2px black;
+	
+}
+
+.banner2 p{
+	text-align: center;
+	font-size: 190%;
+}
+
+.banner-inner{
+	max-width: 285px;
+	margin: 0 auto;
+}
+
+.one-fourth{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+#info{
+	background-color: #F1AA90;
+}
+#acomp{
+	background-color: #BEB9AD;
+}
+#seo{
+	background-color: #AADCD2;
+}
+#social{
+	background-color: #3e70b7;
+}
+.one-fourth i{
+	color: #F0F0F0;
+	font-size: 500%;
+	padding: 13% 0 4% 0;
+}
+.inner-wrapper{
+	float: left;
+	width: 100%;
+	background-color: #C3D7DF;
+}
+article{
+	float: left;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+}
+aside{
+	float: right;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+}
+
+#vereadores_img{
+	background-color: #C3D7DF;
+	margin: 0 auto;
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+#vereadores_txt{
+	background-color: #3e70b7;
+	height: 390px;
+}
+
+#vereadores_txt a{
+	text-decoration: none;
+}
+
+#vereadores_txt a:hover{
+	text-decoration: underline;
+}
+
+#vereadores_txt h2{
+	margin-top: 15%;
+}
+
+.inner-wrapper-2{
+	float: left;
+	width: 100%;
+	background-color: #C3D7DF;
+}
+
+#servidores_txt{
+	background-color: #B3B9AD;
+	height: 400px;
+}	
+
+#servidores_txt a{
+	text-decoration: none;
+}
+#servidores_txt a:hover{
+	text-decoration: underline;
+}
+
+
+#servidores_txt h2{
+	margin-top: 15%;
+}
+
+.servidores_img{
+	width: 50%;
+	float: left;
+	height: 100%;
+	
+}
+
+#desktop{
+	background-color: #F1AA90;
+	text-color: none;
+	height: 512px;
+}
+
+#desktop h2{
+	margin-top: 15%;
+}
+
+#desktop a{
+	text-decoration: none;
+}
+
+.inner-wrapper-3{
+	float: left;
+	width: 100%;
+	background-color: #AADCD2;
+	
+}
+
+.one-third{
+	width: 33.333333333333%;
+	float: left;
+	text-align: center;
+}
+
+.grafico h3{
+	text-align: center !important;
+	font-size: 220%;
+	font-weight: 700;
+	margin-bottom: -5%;
+}
+
+
+#last_msg{
+	background-color: #AADCD2;
+	padding: 0 0 1%;
+	clear: both;
+	
+}
+
+#last_msg h3{
+	font-size: 190%;
+	text-align: center;
+	font-weight: 700;
+}
+/*--- Star Footer --*/
+footer{
+
+	background-color: #3e70b7;
+	width: 100%;
+}
+
+.social{
+	list-style-type: none;
+	text-align: center;
+}
+
+.social li{
+	display: inline;
+}
+
+.social i{
+	font-size: 460%;
+	margin: 1%;
+	padding: 5% 5% 5% 4%;
+	color: #C3D7DF;
+}
+
+.social i:hover{
+	color: #F5F5F5;
+}
+
+footer.second{
+	border-top: 2px solid #AADCD2;
+	background-color: #544B59;
+	max-height: 55px;
+	text-align: center;
+	margin: 0;
+}
+
+footer.second p{
+	padding: 5px 0 9px 0;
+	text-align: center;
+}
+
+
+/* ------------------------------------ Página Vereadores.php ------------------------------------ */
+.vereadores_list{
+	display: inline-block;
+	border-radius: 4px;
+	float: left;
+	height: 550px;
+	width: 40%;
+	margin-left: 5%;
+	margin-top: 20px;
+	color: black;
+	line-height: 150%;
+	font-size: 120%;
+	padding: 1%;
+	text-align: justify;
+	background-color: #c3d7df;
+}
+
+.vereadores_list p{
+	text-align: center;
+	color: black;
+	text-shadow: 1px 1px 1px black;
+}
+
+
+.vereadores_list img{
+	margin: 0 auto;
+	max-width: 149px;
+	max-height: 300px;
+}
+
+.vereadores_list a{
+	color: purple;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+.vereadores_list a:hover {
+	
+	text-decoration: underline;
+}
+
+.vereadores_list .title{
+	font-size: 230%;
+}
+
+#solo{
+	width: 100%;
+	margin: 0;
+	height: 100%;
+}
+
+
+#body_vereadores{
+	background-color: #f1f8fb;
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+#footer_vereadores{
+	float: left;
+	margin-top: 2%;
+}
+
+#footer_vereador{
+	float: left;
+	margin-top: 0%;
+}
+
+.second{
+	float: left;
+}
+
+/* ------------------------------------ Página servidores.php ------------------------------------ */
+
+.servidores_csv{
+	width: 100%;
+	float: left;
+	height: auto;
+}
+
+.servidor_csv{
+	line-height: 150%;
+	float: left;
+	width: 43%;
+	margin-left: 5%;
+	padding: 1%;
+	color: white;
+}
+
+
+iframe{
+	width: 100%;
+	height: 350px;
+}
+
+#chartdiv{
+	float: left;
+	width: 100%;
+	height: 1000px;
+}
+
+#graficos2 h2{
+		color: darkgray;
+		line-height: 160%;
+}
+
+
+
+/*------------------------------ Media!!!--------------------------------------------*/
+
+@media screen and (max-width: 1061px){
+	.one-fourth{
+		font-size: 70%;
+	}
+	
+	.vereadores_list{
+		height: 650px;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	h2{
+		font-size: 150%;
+	}
+	h3{
+		font-size: 125%;
+	}
+	p{
+		font-size: 120%;
+	}
+	header{
+		position: absolute;
+	}
+	#logo{
+		margin: 0px 10px 20px 10px;
+		background: url(img/CC2_mobile.png) no-repeat center;
+	}
+	#menu-icon{
+		display: inline-block;
+	}
+	nav ul, nav:focus {
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		padding: 20px;
+		background: #6991AC;
+		right: 20px;
+		top: 60px;
+		border: 1px solid #FFF;
+		border-radius: 2px 0 2px 2px;
+		width: 40%;
+	}
+	nav:hover ul{
+		display: block;
+	}
+	nav li{
+		text-align: center;
+		width: 100%;
+		float: left;
+		padding: 10px 0;
+	}
+	.banner2 {
+		padding-top: 86px;
+	}
+	
+	.banner-inner{
+		max-width: 290px;
+		margin: 0 auto;
+	}
+	
+	.banner2 p{
+		font-size: 150%;
+	}
+	
+	.banner2 h2{
+		font-size: 200%;
+		text-align: center;
+		margin-left: 15%;
+	}
+	.one-fourth{
+		float: left;
+		width: 100%;
+		font-size: 100%;
+	}
+	.one-fourth i{
+		font-size: 350%;
+		padding: 4% 0 1% 0;
+	}
+	
+	#desktop{
+		height: auto;
+	}
+	
+	
+	/* ---------------------------------------- VEREADOR ---------------------------------------- */
+	
+	#vereadores_img{
+		margin-left: 30%;
+		max-width: 180px;
+		
+	}
+	
+	.vereadores_list{
+		height: 600px;
+	}
+	
+	
+	#vereadores_txt{
+		height: 100%;
+	}
+	
+	#vereadores_txt h2{
+		margin-top: 0%;
+	}
+	
+	/* ---------------------------------------- SERVIDORES ---------------------------------------- */
+	
+	.servidores_img{
+		margin-left: 29%;
+		max-width: 200px;
+	}
+	
+	#servidores_txt{
+		height: 100%;
+	}
+	
+	#servidores_txt h2{
+		margin-top: 0%;
+	}
+	
+	article{
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+	}
+	.hand-mobile{
+		display: none;
+	}
+	.one-third{
+		width: 100%;
+	}
+	.social i{
+		font-size: 180%;
+	}
+	
+	.grafico h3{
+		font-size: 160%;
+	}
+	
+	
+	#last_msg h3{
+		font-size: 140%;
+		font-weight: 600;
+	}
+	
+	.vereadores_list{
+		width: 90%;
+		margin-left: 0 5%;
+		margin-top: 40px;
+	}
+	
+	.vereadores_list img{
+		opacity: 0.6;
+	}
+	
+	#last {
+		position: absolute;
+	}
+	#fonte{
+		float: left;
+		margin-top: 100px;
+	}
+	
+	#hide{
+		visibility: hidden;
+		position: absolute;
+	}
+
+	#cash{
+		max-width: 300px;
+		margin-left: 15%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
